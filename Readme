@@ -1,1 +1,76 @@
+---
 
+# 📰 Fake News Detection using Machine Learning & NLP
+
+Detect fake news articles using Machine Learning and Natural Language Processing techniques. This project demonstrates the end-to-end application of supervised learning and text processing pipelines using Python.
+
+---
+
+## 🚀 Key Features
+
+* ✅ Advanced **text preprocessing** with tokenization, stopword removal, stemming
+* ✅ **Feature extraction** using TF-IDF and Bag-of-Words models
+* ✅ Model training using **Logistic Regression, Naive Bayes**, and more
+* ✅ Evaluates with accuracy, precision, recall, and F1-score
+* ✅ Simple Flask web deployment (optional)
+
+---
+
+## 🧠 Tech Stack
+
+| Category     | Tools & Libraries                     |
+| ------------ | ------------------------------------- |
+| Programming  | Python 3.x                            |
+| ML Libraries | Scikit-learn, NLTK                    |
+| Utilities    | Pandas, NumPy, TQDM                   |
+| Deployment   | Flask *(for web version)*             |
+| Optional     | OpenCV *(for future visual analysis)* |
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+├── Corpus/                # Dataset and data scripts
+├── Untitled.ipynb         # Main notebook with code walkthrough
+├── requirements.txt       # All dependencies
+├── app.py (optional)      # Flask-based deployment script
+├── myenv/ (optional)      # Virtual environment
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repo
+git clone <repository-url>
+cd "Fake news detection"
+
+# 2. (Optional) Create a virtual environment
+python -m venv myenv
+source myenv/bin/activate  # or .\myenv\Scripts\activate (Windows)
+
+# 3. Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 📈 Model Training & Usage
+
+* Open `Untitled.ipynb` in Jupyter Notebook.
+* Load and preprocess the dataset.
+* Train multiple models and compare performance.
+* Evaluate using confusion matrix and accuracy metrics.
+* (Optional) Use Flask to deploy as a web tool.
+
+---
+
+## 📊 Results
+
+* Achieved **90%+ accuracy** using Logistic Regression with TF-IDF.
+* Naive Bayes also showed strong generalization on unseen data.
+* Demonstrated robust handling of noisy textual data.
+
+---
